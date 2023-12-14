@@ -1,5 +1,5 @@
 body{
-    position: relative;
+    position: absolute;
 }
 #navbar{
     display: flex;
@@ -76,8 +76,8 @@ p{
 }
 
 img {
-    
-    position: absolute;
+    z-index: -1;
+    position: fixed;
     top: 0;
     right: 0;
 }
@@ -93,7 +93,7 @@ img {
     color:#000;
 }
 #image2{
-    position: absolute;
+    position: fixed;
     top: 294px;
     right: 0;
 }
